@@ -53,7 +53,7 @@ paypal.configure({
 import kidsRoutes from "./routes/kids.js";
 import productRoutes from "./routes/products.js";
 import menRoutes from "./routes/men.js";
-import womenRoutes from "./routes/women.js";
+import womenRoutes from './routes/women.js';
 import authRoutes from "./routes/auth.js";
 import orderRoutes from "./routes/orders.js";
 import debugRoutes from "./routes/debug.js";
@@ -187,6 +187,6 @@ app.get("/", (req, res) => {
 });
 
 // --- Start Server ---
-app.listen(PORT, () => {
-  console.log(`🚀 Server running at PORT:${PORT}`);
+app.listen(8000, () => {
+  console.log("Server running at 8000");
 });

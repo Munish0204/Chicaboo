@@ -14,6 +14,11 @@ const validCategories = [
   'outwear',
 ];
 
+// Example GET endpoint
+router.get('/', (req, res) => {
+  res.json({ message: 'Women route is working!' });
+});
+
 // ✅ GET all products by category
 router.get('/:category', async (req, res) => {
   const { category } = req.params;
