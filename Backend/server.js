@@ -53,7 +53,6 @@ paypal.configure({
 import kidsRoutes from "./routes/kids.js";
 import productRoutes from "./routes/products.js";
 import menRoutes from "./routes/men.js";
-import womenRoutes from './routes/women.js';
 import authRoutes from "./routes/auth.js";
 import orderRoutes from "./routes/orders.js";
 import debugRoutes from "./routes/debug.js";
@@ -63,7 +62,6 @@ import User from "./models/User.js";
 app.use("/api/kids", kidsRoutes);
 app.use("/api/products", productRoutes);
 app.use("/api/men", menRoutes);
-app.use("/api/women", womenRoutes);
 app.use("/api/auth", authRoutes);
 app.use("/api/orders", orderRoutes);
 app.use("/api/debug", debugRoutes);
